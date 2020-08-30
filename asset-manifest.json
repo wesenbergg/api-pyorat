@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/api-pyorat/static/js/main.a6bb4a83.chunk.js",
-    "main.js.map": "/api-pyorat/static/js/main.a6bb4a83.chunk.js.map",
+    "main.js": "/api-pyorat/static/js/main.b6d5110b.chunk.js",
+    "main.js.map": "/api-pyorat/static/js/main.b6d5110b.chunk.js.map",
     "runtime-main.js": "/api-pyorat/static/js/runtime-main.7cb8f5a7.js",
     "runtime-main.js.map": "/api-pyorat/static/js/runtime-main.7cb8f5a7.js.map",
     "static/js/2.3a523bc7.chunk.js": "/api-pyorat/static/js/2.3a523bc7.chunk.js",
     "static/js/2.3a523bc7.chunk.js.map": "/api-pyorat/static/js/2.3a523bc7.chunk.js.map",
     "index.html": "/api-pyorat/index.html",
-    "precache-manifest.985217736f99975d60980007c9aa458a.js": "/api-pyorat/precache-manifest.985217736f99975d60980007c9aa458a.js",
+    "precache-manifest.bf11b8ee45436911b5d555998aa99460.js": "/api-pyorat/precache-manifest.bf11b8ee45436911b5d555998aa99460.js",
     "service-worker.js": "/api-pyorat/service-worker.js",
     "static/js/2.3a523bc7.chunk.js.LICENSE.txt": "/api-pyorat/static/js/2.3a523bc7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7cb8f5a7.js",
     "static/js/2.3a523bc7.chunk.js",
-    "static/js/main.a6bb4a83.chunk.js"
+    "static/js/main.b6d5110b.chunk.js"
   ]
 }
