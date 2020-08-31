@@ -4,7 +4,7 @@ const App = () => {
   const [data, setData] = useState([])
 
   useEffect( () => {
-    fetch("http://api.citybik.es/v2/networks/citybikes-helsinki")
+    fetch("https://api.citybik.es/v2/networks/citybikes-helsinki")
     .then(res => res.json())
     .then(res => setData(res.network.stations) )
   }, [])
