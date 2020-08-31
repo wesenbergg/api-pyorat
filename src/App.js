@@ -4,16 +4,16 @@ const App = () => {
   const [data, setData] = useState([])
 
   useEffect( () => {
-    fetch('https://services1.arcgis.com/sswNXkUiRoWtrx0t/arcgis/rest/services/liipi_pyora_fasiliteetit/FeatureServer/0/query?where=HSL_ALUE%20%3D%20\'0\'&outFields=PYORAKAA,PAIKKOJA,TUNNUSFI,HSL_ALUE&outSR=4326&f=json')
+    fetch("http://api.citybik.es/v2/networks/citybikes-helsinki")
     .then(res => res.json())
-    .then(res => setData(res.features) )
+    .then(res => setData(res.network.stations) )
   }, [])
   
   const listBikes = () => data.map(e => 
-    <tr key={e.attributes.TUNNUSFI}>
-      <td>{e.attributes.TUNNUSFI}</td>
-      <td>{e.attributes.PYORAKAA}</td>
-      <td>{e.attributes.PAIKKOJA}</td>
+    <tr key={e.name}>
+      <td>{e.name}</td>
+      <td>{e.free_bikes}</td>
+      <td>{e.empty_slots}</td>
     </tr>
     )
   
