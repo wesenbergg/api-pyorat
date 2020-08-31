@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/api-pyorat/precache-manifest.7ff82ffdd13f281ab16043c04fd6ee48.js"
+  "/api-pyorat/precache-manifest.39fa5a6de5612f0bcc7e71e94230b34d.js"
 );
 
 self.addEventListener('message', (event) => {

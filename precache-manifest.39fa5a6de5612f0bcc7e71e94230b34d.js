@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a824aa0b642b5b0f3237d5fbca11bae",
+    "revision": "0e675c8eca78844873395369311b150e",
     "url": "/api-pyorat/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/api-pyorat/static/js/2.3a523bc7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fd17466f44680874c50a",
-    "url": "/api-pyorat/static/js/main.0da52030.chunk.js"
+    "revision": "d653b7990a68efdff26c",
+    "url": "/api-pyorat/static/js/main.1a018083.chunk.js"
   },
   {
     "revision": "97169046505fa2a4147f",
