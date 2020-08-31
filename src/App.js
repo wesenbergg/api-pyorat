@@ -23,7 +23,7 @@ const App = () => {
         <table className="table table-striped table-sm">
           <thead>
             <tr>
-              <th>Nimi</th>
+              <th>Aseman nimi</th>
               <th>Pyöriä saatavilla</th>
               <th>Paikkoja vapaana</th>
             </tr>
